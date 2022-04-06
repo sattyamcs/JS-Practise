@@ -60,5 +60,13 @@ var arr1 = [ 3, -8, 7, 6, 5, -4, -3, 2, 1 ];
 arr1.sort();
 console.log(arr1.toString());
 
-
-
+//7 Find the largest element of an array
+function largestElem(input){
+var largest=input[0]
+for(var i=0;i<=input.length;i++){
+  if(largest<input[i]){
+   return largest=input[i]
+  }
+}
+}
+console.log(largestElem([1,2,21,555,5,55]))

@@ -46,3 +46,24 @@ console.log(evenNumb(createArray([10])));
 // Using spread function of ES6 and filter for even numbers
 const largestEven=(arr)=>Math.max(...arr.filter((num)=>num%2===0))
 console.log(largestEven([2,3,4,5,6,7,8,9]))
+
+// 5.Write the Js program to replace the first digit in a string (should conttain atleast digits) with $ character
+// done with Regular expression. syntax = /pattern/modifier(s);
+
+// A regular expression is a pattern of characters.
+
+// The pattern is used to do pattern-matching "search-and-replace" functions on text.
+
+
+const replaceFirstDigit=(str)=>str.replace(/[0-9]/,'$');
+console.log(replaceFirstDigit("Sattyam2Singh3"))
+
+
+// 7. Removing array duplicates
+
+// old methods we use array filter to remove the duplicates but not Set is used to remove duplicates
+let myArray=["hi","hi","hello","hello"]
+
+let newArray=[...new Set (myArray)];
+console.log(newArray);
+

@@ -26,3 +26,17 @@ const newNum=(a,b)=> (100-a)< (100-b)?a:b;
 console.log(newNum(99,1))
 console.log(newNum(30,70))
 console.log(newNum(20,54))
+
+
+//Reverse a string
+let strings = "Sattyam is a good boy";
+let Rstrings = strings.split("").reverse().join("");
+console.log(Rstrings);
+
+// Ques. Write a js program to print the extension of the file name
+const extLast=(str)=>{
+    return str.slice(str.lastIndexOf('.'))
+}
+console.log(extLast("index.html"));
+console.log(extLast("javascript.js"));
+
