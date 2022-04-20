@@ -30,3 +30,8 @@ function nonRepeated(str){
     str.split('').filter((item,indx,arr)=>arr.filter((arrItem)=>arrItem===item).length===1)
 }
 console.log(nonRepeated('assdddsfdff'))
+
+// 5.Find the total words in a String. 
+let str1 = "Sattyam is a good developer "
+let newStr = str1.split(' ').length 
+console.log(newStr)// This will return the total numbers of words in a string

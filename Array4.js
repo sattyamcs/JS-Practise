@@ -20,6 +20,13 @@ const orders = [
     ]},
 ];
 
+
+//Here we can use console.table to print table of the given array
+console.table(orders);
+
+
+
+
 // 1. Get a list of orders for the customers with the ID 234 that have not been delivered 
 // Here we use && operator to check both the conditions are true 
 let listNotDelivered = orders.filter((order)=> order.customerId==='234' && !(order.delivered));
