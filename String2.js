@@ -35,3 +35,9 @@ console.log(nonRepeated('assdddsfdff'))
 let str1 = "Sattyam is a good developer "
 let newStr = str1.split(' ').length 
 console.log(newStr)// This will return the total numbers of words in a string
+
+// 6.Reverse an sectence 
+function reverseString(input){
+    return input.split(' ').reverse().join(' ')
+} 
+console.log(reverseString("Sattyam Singh is a good developer"));

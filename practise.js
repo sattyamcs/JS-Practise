@@ -1,6 +1,4 @@
-function sum (){
-    var add = (2+2);
-    console.log(add)
-    console.log(this)
-}
-sum()
+function reverseString(input){
+    return input.split(' ').reverse().join(' ')
+} 
+console.log(reverseString("Sattyam Singh is a good developer"));

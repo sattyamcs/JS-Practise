@@ -67,3 +67,26 @@ let myArray=["hi","hi","hello","hello"]
 let newArray=[...new Set (myArray)];
 console.log(newArray);
 
+// 8.acsending and descending order of an array 
+// For ascending
+let arr = [1,23,4,45,85,65,25,45]
+let newArray4 = arr.sort((a,b)=>a-b)
+console.log(newArray4)
+// For descending
+let newArray5=arr.sort((a,b)=>b-a)
+console.log(newArray5)
+
+
+
+// 9.Largest value of an array or smallest value of an array 
+// By using the reduce method 
+console.log(arr.reduce((accum,value)=>accum>value?accum:value)) //For largest
+console.log(arr.reduce((accum,value)=>accum<value?accum:value)) //For smallest
+
+// 10.Reverse a integer  like 25=52;
+const reverseInteger=(inp)=>{
+   return parseInt( inp.toString().split('').reverse().join(''))
+}
+console.log(reverseInteger(25))
+console.log(reverseInteger(500))
+

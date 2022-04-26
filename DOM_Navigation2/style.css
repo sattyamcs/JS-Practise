@@ -1,0 +1,33 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #BAE8E8;
+    height: 100vh;
+}   
+
+#registration-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+     align-items: center; 
+     padding: 10rem;
+}
+
+.text_area{
+    width: 20rem;
+    height: 1rem;
+    padding:1rem;
+    margin: 1rem;
+    border: none;
+}
+
+.btn{
+    padding: 1rem 1.5rem ;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    background-color:  #24a0ed;
+    cursor: pointer;
+}
