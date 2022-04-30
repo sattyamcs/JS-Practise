@@ -1,6 +1,6 @@
 // 1. write a js function that returns a passed string with letters in alphabetical orders
 // input string:"ttyamsa"
-// output string:"Sattyam"
+// output string:"amastty"
 const sortString=(inp)=>{
    return inp.split('').sort((a,b)=>a>b?1:-1).join('')
 }

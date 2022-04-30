@@ -11,4 +11,4 @@
 // 2.toExponential() returns a string, with a number rounded and written using exponential notation.
 let x = 9.656;
 let y =  x.toExponential(2);
-console.log(y)  
+console.log(y)

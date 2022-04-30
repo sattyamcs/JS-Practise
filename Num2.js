@@ -36,7 +36,7 @@ const newDate=(newDt= new Date())=>{
 console.log(newDate());
 
 
-let number = [2,3,4,5,6,7,8,9]
+// let number = [2,3,4,5,6,7,8,9]
 
 
 
