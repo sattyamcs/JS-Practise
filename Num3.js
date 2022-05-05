@@ -19,5 +19,12 @@ for(a=1;a<=10;a++){
 table(4);
 
 
+//Console a table in simple
+for (var i = 1; i <=10; i++){
+    let num =6;
+    console.log(`${num}*${i} = ${num*i}`)
+}
+
+
 
 
