@@ -86,15 +86,36 @@ for(year=2014;year<=2050;year++){
 }
 
 // 8.Write a JavaScript program where the program takes a random integer between 1 to 10, the user is then prompted to input a guess number. If the user input matches with guess number, the program will display a message "Good Work" otherwise display a message "Not matched". 
-let num = Math.ceil(Math.random()*10)
-console.log(num)
-let gNum = prompt("Hello Enter your number")
-if(gNum == num){
-    Console.log("Yay! Its a Match")
-}else{
-    console.log("Sorry! Doesnot Match")
+// let num = Math.ceil(Math.random()*10)
+// console.log(num)
+// let gNum = prompt("Hello Enter your number")
+// if(gNum == num){
+//     Console.log("Yay! Its a Match")
+// }else{
+//     console.log("Sorry! Doesnot Match")
+// }
+
+// 11.Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit.  Go to the editor
+// [ Formula : c/5 = (f-32)/9 [ where c = temperature in Celsius and f = temperature in Fahrenheit ]
+// Expected Output :
+// 60°C is 140 °F
+// 45°F is 7.222222222222222°C
+function farToCel(f){
+    let fToC = (f - 32) * 5 / 9;
+    console.log(`The farehnheit to celcius is ${fToC}`)
 }
+farToCel(52);
+function celToFar(c){
+    let cTof = c * 9 / 5 + 32;
+    console.log(`The celcius to farehneit is ${cTof}`)
+}
+celToFar(52);
 
-// 9.Write a JavaScript program to calculate days left until next Christmas.
+// 12. Write a JavaScript program to get the website URL (loading page). 
+// Both used to get the url of the current webpage
+ console.log(window.location.href)
+ console.log(document.URL)
 
+
+// 13.Write a JavaScript exercise to create a variable using a user-defined name
  

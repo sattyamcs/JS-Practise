@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Basic Js Program </title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #BAE8E8;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        form {
+            background-color: aliceblue;
+            padding: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        input,
+        .button {
+            margin: 5px;
+        }
+
+        .button {
+            padding: 0.5rem 1rem;
+            font-weight: bold;
+            font-size: 15px;
+            border: none;
+            color: white;
+            background-color: #24a0ed;
+            cursor: pointer;
+        }
+
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h2>CALCULATIONS😎</h2>
+        <form action="">
+            1st Number : <input type="number" id='num1'><br>
+            2nd Number : <input type="number" id="num2"><br>
+            <input type="button" class="button" onclick="onMultiply()" value="Multiply"></>
+            <input type="button" class="button" onclick="onDivide()" value="Divide"></input>
+            <p>The Result is : <span id="result"></span></p>
+        </form>
+    </section>
+    <script>
+        // References
+        
+
+        function onMultiply(){
+            let first = document.getElementById('num1').value
+        let second = document.getElementById('num2').value
+            return document.getElementById('result').innerHTML = first*second;
+        }
+        function onDivide(){
+            let first = document.getElementById('num1').value
+        let second = document.getElementById('num2').value
+            return document.getElementById('result').innerHTML = first/second;
+        }
+        
+
+    </script>
+</body>
+
+</html>
